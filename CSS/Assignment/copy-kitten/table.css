@@ -1,0 +1,26 @@
+#table, table div{
+    margin: 20px;
+}
+
+#table a {
+    text-decoration: none;
+}
+
+.row a{
+    border: 1px solid black
+}
+
+#row-1 a{
+    border-top: 0;
+}
+
+#row-3 a{
+    border-bottom: 0;
+}
+
+#table a:nth-child{1}{
+    border-right: 0;
+}
+
+#table a:nth-child{3}{
+    border-right: 0;
